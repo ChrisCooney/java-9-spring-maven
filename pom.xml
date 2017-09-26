@@ -29,13 +29,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.lohika.morning.java9modules</groupId>
-                <artifactId>service</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <!-- Import dependency management from Spring Boot. -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
