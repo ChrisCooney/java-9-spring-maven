@@ -3,4 +3,6 @@ module java9.spring.mvc {
     requires spring.boot.autoconfigure;
     requires spring.boot;
     requires users;
+
+    exports java9.spring.mvc;
 }

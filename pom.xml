@@ -11,6 +11,7 @@
 
     <modules>
         <module>app</module>
+        <module>users</module>
     </modules>
 
     <properties>

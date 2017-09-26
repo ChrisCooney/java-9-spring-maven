@@ -2,9 +2,9 @@ package java9.spring.mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Configuration
+@SpringBootApplication
 @EnableAutoConfiguration
 public class Java9SpringMvcExample {
     public static void main(String[] args) {
