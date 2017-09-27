@@ -12,6 +12,7 @@
     <modules>
         <module>app</module>
         <module>users</module>
+        <module>admin</module>
     </modules>
 
     <properties>
@@ -31,6 +32,11 @@
             <dependency>
                 <groupId>com.chris</groupId>
                 <artifactId>users</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.chris</groupId>
+                <artifactId>admin</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
