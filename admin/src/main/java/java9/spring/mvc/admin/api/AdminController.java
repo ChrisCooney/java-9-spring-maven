@@ -10,8 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AdminController {
 
-    @Autowired
-    private MetricsService metricsService;
+    private final MetricsService metricsService;
+
+    public AdminController(MetricsService metricsService) {
+        this.metricsService = metricsService;
+    }
 
     @RequestMapping("/metrics")
     public MetricsResponse metrics() {
